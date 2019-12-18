@@ -2,7 +2,7 @@
 #  Here we will get a list of all the Computers in AMP for Endpoints and their specifics.
 #
 $headers = New-Object 'System.Collections.Generic.Dictionary[[String],[String]]'
-$headers.Add('Authorization', 'Basic ZjU3NGI4Y2M5ZDkyMzBhOTY3NzQ6MDg1MDM1MzYtOGE4Zi00ZTI2LWIxN2UtM2YwMmQyOTNkMzFk')
+$headers.Add('Authorization', 'Basic ZjUFk')
 $headers.Add('accept', 'application/json')
 $headers.Add('Content-type', 'application/json')
 $headers.Add('Accept-Encoding', 'gzip, deflate')

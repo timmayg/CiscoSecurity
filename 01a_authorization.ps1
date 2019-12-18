@@ -7,8 +7,8 @@
 #    https://www.base64encode.org/
 #
 
-$clientid='asdiugpug'
-$apikey='ffgywlueifbuie'
+$clientid='enter-your-client-id'
+$apikey='enter-your-api-key'
 $base64Auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $clientid,$apikey))) 
 
 Write-Host $base64Auth

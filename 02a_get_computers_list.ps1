@@ -1,9 +1,6 @@
 #
 #  Here we will get a list of all the Computers in AMP for Endpoints and their specifics.
 #
-
-#
-#
 $headers = New-Object 'System.Collections.Generic.Dictionary[[String],[String]]'
 $headers.Add('Authorization', 'Basic ZjU3NGI4Y2M5ZDkyMzBhOTY3NzQ6MDg1MDM1MzYtOGE4Zi00ZTI2LWIxN2UtM2YwMmQyOTNkMzFk')
 #$clientid='f574b8cc9d9230a96774'

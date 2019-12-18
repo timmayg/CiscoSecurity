@@ -1,7 +1,6 @@
-# Cisco Security 
+# Cisco Security - AMP
 
 Scripts here will cover 
 * AMP for Endpoints
 
-Others will follow as I have time. 
 

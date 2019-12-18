@@ -16,5 +16,11 @@ $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
 $url = 'https://api.amp.cisco.com/v1/computers/'
 $response = Invoke-RestMethod -Method Get -URI $url -Headers $headers
-Write-Host $response.data
 
+
+!
+!   The $response output may be hard to deal with so we can easilly change it to JSON 
+!     where it will be easier to manage. 
+!
+
+$respobj = $response.data | Select-Object -Property * | ConvertTo-Json  

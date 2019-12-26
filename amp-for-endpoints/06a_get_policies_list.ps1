@@ -13,8 +13,6 @@ $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
 
 $url = 'https://api.amp.cisco.com/v1/policies/' 
-#Invoke-RestMethod -Method Get -URI $url -Headers $headers
+Invoke-RestMethod -Method Get -URI $url -Headers $headers
 
-$response = Invoke-RestMethod -Method Get -URI $url -Headers $headers
-Write-Host $response.data
 

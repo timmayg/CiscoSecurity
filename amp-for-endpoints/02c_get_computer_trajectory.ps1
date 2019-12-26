@@ -1,4 +1,5 @@
-#  Shows information about a specific computer.
+#  Provides list of all activities associated with a particular computer. 
+#    This is analogous to the Device Trajectory on the FireAMP Console.
 #
 $headers = New-Object 'System.Collections.Generic.Dictionary[[String],[String]]'
 $clientid='enter-your-client-id'

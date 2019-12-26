@@ -1,4 +1,3 @@
-  
 #
 #  AMP for Endpoints API requires a Client ID and an API Key.
 #  AMP for Endpoints API Authorization supports a Base64 hash of these two keys.

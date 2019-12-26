@@ -15,10 +15,8 @@ $headers.Add('Accept-Encoding', 'gzip, deflate')
 #  
 $policy_guid = '8a9ae814-7441-441b-a4f8-c0f079f2aa85'
 $url = 'https://api.amp.cisco.com/v1/policies/' + $policy_guid
-#Invoke-RestMethod -Method Get -URI $url -Headers $headers
+Invoke-RestMethod -Method Get -URI $url -Headers $headers
 
-$response = Invoke-RestMethod -Method Get -URI $url -Headers $headers
-Write-Host $response.data
 
 
 

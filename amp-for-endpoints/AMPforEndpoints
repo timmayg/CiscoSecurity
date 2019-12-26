@@ -7,4 +7,6 @@ Scripts here will cover AMP for Endpoints API
 
 3. These are all writted by Tim Glen and are not supported by Cisco Systems Inc. 
 
+4. Always test any scripts in a testing environment before running them in production. 
 
+5. I'm definalty not responsible if you use these for good or bad :).  

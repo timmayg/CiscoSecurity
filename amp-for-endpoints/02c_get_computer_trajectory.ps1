@@ -1,3 +1,4 @@
+#
 #  Provides list of all activities associated with a particular computer. 
 #    This is analogous to the Device Trajectory on the FireAMP Console.
 #

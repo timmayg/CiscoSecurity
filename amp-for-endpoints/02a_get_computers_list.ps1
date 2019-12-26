@@ -1,4 +1,6 @@
-
+#
+# Get a list of all Computers in AMP
+#
 $headers = New-Object 'System.Collections.Generic.Dictionary[[String],[String]]'
 $clientid='enter-your-client-id'
 $apikey='enter-your-api-key'

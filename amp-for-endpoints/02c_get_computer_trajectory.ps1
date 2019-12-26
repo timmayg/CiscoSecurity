@@ -13,5 +13,6 @@ $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
 #   The connector GUID can be obtained in the AMP Console or from the API. 
 #  
-$url = 'https://api.amp.cisco.com/v1/computers/7244b3ea-68bd-4fff-81d8-2f08aef45220/trajectory'
+$connector_guid = '7244b3ea-68bd-4fff-81d8-2f08aef45220'
+$url = 'https://api.amp.cisco.com/v1/computers/' + $connector_guid + '/trajectory'
 Invoke-RestMethod -Method Get -URI $url -Headers $headers

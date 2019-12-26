@@ -1,5 +1,12 @@
 Scripts here will cover AMP for Endpoints API
 
+Scripts are prefixed as follows
+01 - authentication 
+02 - computers \ users
+03 - events
+04 - 
+05 - groups
+06 - policies
 
 1. These scripts were written on a Mac using Visual Studio Code 1.41 & Powershell 6.2.3.
 

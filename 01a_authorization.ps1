@@ -1,7 +1,8 @@
 #
 #  AMP for Endpoints API requires a Client ID and an API Key.
 #  AMP for Endpoints API Authorization supports a Base64 hash of these two keys.
-#  Here we will hash them together using Powershell. 
+#  Here we will hash them together using Powershell, we will use 
+#    this authentication method in all other scripts. 
 #
 #  At this time you can check this website to assure PS is converting the strings correctly.
 #    https://www.base64encode.org/

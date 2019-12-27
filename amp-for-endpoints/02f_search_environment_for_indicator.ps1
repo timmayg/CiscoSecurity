@@ -1,3 +1,4 @@
+#
 #   This endpoint provides you with the ability to search 
 #      all computers across your organization for any events 
 #      or activities associated with a file or network operation, 
@@ -29,7 +30,7 @@ $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
 # Fetches list of computers that have connected to given URL
 # $query = 'SearchProtocolHost.exe'
-
+#
 $url = 'https://api.amp.cisco.com/v1/computers/activity?q=' + $query
 Invoke-RestMethod -Method Get -URI $url -Headers $headers
 

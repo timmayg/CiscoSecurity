@@ -9,7 +9,6 @@ $headers.Add('accept', 'application/json')
 $headers.Add('Content-type', 'application/json')
 $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
-#
 #   The connector GUID can be obtained in the AMP Console or from the API. 
 #  
 $connector_guid = '7244b3ea-68bd-4fff-81d8-2f08aef45220'

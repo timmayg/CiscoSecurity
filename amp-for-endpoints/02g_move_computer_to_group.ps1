@@ -16,7 +16,7 @@ $headers.Add('Accept-Encoding', 'gzip, deflate')
 $connector_guid = '2106f567-c37e-41fe-9423-e1dd064f0b79'
 $group_guid = @{'group_guid' = 'f8ec3078-0294-4d8d-a583-1390c444c607'}
 $body = ConvertTo-Json -InputObject $group_guid
-
+#
 $url = 'https://api.amp.cisco.com/v1/computers/' + $connector_guid 
 Invoke-RestMethod -Method Patch -URI $url -Headers $headers
 

@@ -1,3 +1,4 @@
+#
 #  Fetch a specific computer's trajectory with given connector_guid 
 #    and filter for events with user name activity
 #

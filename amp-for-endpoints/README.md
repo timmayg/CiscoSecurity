@@ -4,7 +4,9 @@ Source documentation for these APIs is here:
 https://api-docs.amp.cisco.com/api_resources?api_host=api.amp.cisco.com&api_version=v1
 
 In order to work with any of these Powershell scripts you will need to update the following lines. 
+
 $clientid='enter-your-client-id'
+
 $apikey='enter-your-api-key'
 
 

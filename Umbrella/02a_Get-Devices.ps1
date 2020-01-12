@@ -10,8 +10,10 @@ $headers.Add('accept', 'application/json')
 $headers.Add('Content-type', 'application/json')
 $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
-# Replace 123456789 with your org ID. 
-#  Your org ID can be obtained using 01a_Get-Organizations.ps1
+#  Replace 123456789 in the $url with your own Org ID. 
+#  You can obtain your Org ID two ways.
+#  1. Use the script in this repository 01a_Get-Organizations.ps1
+#  2. Look at the URL in your Umbrella Dashboard
 #
 $url = 'https://management.api.umbrella.com/v1/organizations/123456789/networkdevices'
 $response = Invoke-RestMethod -Method Get -URI $url -Headers $headers

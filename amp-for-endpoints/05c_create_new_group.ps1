@@ -11,6 +11,9 @@ $headers.Add('Content-type', 'application/json')
 $headers.Add('Accept-Encoding', 'gzip, deflate')
 #
 #
+#  AMP Administrator will need to replace the 'name' and 'description'
+#    fields below with the desired info. 
+#
 $data = @{
     'name' = 'Test Group1'
     'description' = 'This is for testing'
